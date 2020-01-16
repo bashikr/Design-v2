@@ -9,6 +9,14 @@ views:
                type: single
                route: block/om-design
 
+    tema:
+        region: sidebar-right
+        template: anax/v2/block/default
+        data:
+            meta:
+                type: single
+                route: block/om-tema
+
     kursrepo:
         region: sidebar-right
         template: anax/v2/block/default
@@ -37,12 +45,24 @@ views:
 
 
 
-A Brief Presentation About Myself
-=========================
+<!-- A Brief Presentation About Myself
+========================= -->
+
+<div class="main-container">
+  <div class="first-container share">
+    <h1><span id="one">A</span> Brief Presentation About Myself
+  </div>
+  <!-- <div class="second-container share">
+    <h1><span>W</span><span>e</span> <span>M</span><span>o</span><span>v</span><span>e</span></h1>
+  </div> -->
+</div>
+
 
 <!-- Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`. -->
 
 [FIGURE src="image/bashar_me.jpg?w=350&h=500&crop-to-fit&area=0,20,30,20" class="right w33" caption="Bashar in Fridhemsplan, Stockholm."]
+<!-- [FIGURE src="image/3.jpg?w=100&h=100&crop-to-fit" href="http://www.student.bth.se/~baaa19/dbwebb-kurser/design/me/redovisa/htdocs/blogg" class="figure1 right w33"] -->
+
 
 My name is Bashar Altaleb and I am 27 years old, single, and don't have children yet. I come originally from Syria, born and raised in Damascus "The capital city in Syria", but I have moved to Sweden in September 2015. At first, I lived in a little city called Avesta in Dalarna province, but in 2018 I moved to Sundbyberg, Stockholm.</br>
 </br>

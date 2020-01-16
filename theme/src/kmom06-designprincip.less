@@ -1,0 +1,158 @@
+/*!
+ * Stylesheet for design kmom06-designprincip.
+ *
+ * This stylesheet is for the design course and kmom06-designprincip where we use LESS.
+ */
+
+
+/**
+* layout mixins
+*/
+@import "mixin/clearfix.less";
+ 
+.clearfix () {
+    #design-mixin.clearfix();
+}
+
+ /**
+ * Normalize and reset the style.
+ */
+@import "normalize.css/normalize.less";
+
+
+/**
+ * Font Awesome.
+ */
+ @import "@fortawesome/fontawesome-free/less/fontawesome.less";
+ @import "@fortawesome/fontawesome-free/less/solid.less";
+ @import "@fortawesome/fontawesome-free/less/brands.less";
+
+
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+@import "module/stylechooser.less";  // Just an example module
+
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+
+
+
+/**
+ * Import the typographic grid.
+ */
+ @import "@desinax/typographic-grid/less/typography-font-families.less";
+ @import "@desinax/typographic-grid/less/typography-defaults.less";
+
+
+// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+
+/**
+ * Import the vertical grid.
+ */
+ @import "@desinax/vertical-grid/less/grid.less";
+ @import "layout/vgrid-kmom06-designprincip.less";
+
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+@import "layout/regions.less";
+
+
+/**
+ * Figure and figcaption for images and other media using figure/figcaption
+ */
+ @import "@desinax/figure/less/asciinema.less";
+ @import "@desinax/figure/less/codepen.less";
+ @import "@desinax/figure/less/figure.less";
+
+ // Enable style from the module and optinally add customized layout
+figure.figure {
+    #desinax-figure.figure();
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
+
+
+/**
+* My own settings, not currently in their own module.
+*/
+@colorBody:#111;
+@accentBgColor: green;
+@accentFontColor: red;
+
+// Adapt the typographic grid to my style.
+@fontFamilyBody: @fontFamilyMyriadPro;
+@fontFamilyCode: @fontFamilyCourier;
+
+@magicNumber:  24px;  // 24px
+@fontSizeBody: 18px;   //16px
+
+
+@color-yellow:#ffd343;
+@color-black: #333;
+@color-white: #fff;
+@color-red: #f00;
+@color-cyan-5da9b5:#5da9b5;
+@color-variant-red: #8b1f1f;
+@color-variant-cyan: #2d3f49f0;
+@color-variant-black-444: #444;
+@color-green: #0b7621;
+@color-E6E6:#E6E6E6;
+@color-aaa:#aaa;
+@color-variant-blue: #1c3b56;
+@color-variant-1e1e27-black:#1e1e27;
+@colorInnerWrapHeader:#999;
+@color-666: #666;
+@color-variant-black:#626873;
+
+
+
+@bgColorInnerWrapHeader: @color-black;
+@bgColorRmMax: @color-black;
+@bgColorHtml:@color-black;
+@bgColorRmMaxRmSwipeRight: @color-black;
+@bgColorRmMaxAHover: @color-black;
+@bgColorRegionHeaderCol2AHover: @color-black;
+@bgColorRegionFooter: @color-black;
+@bgColorRmDesktopAHover: @color-black;
+@bgColorTocLiA: @color-black;
+@bgColorInnerWrapOuterWrapFooter:@color-black;
+@bgColorOuterWrapFooter: @color-black;
+
+@bgColorRegionHeaderCol2A: @color-variant-black;
+
+@bgColorNextPrevious: @color-variant-blue;
+@bgColorRow: @color-variant-blue;
+@bgColorInfo: @color-variant-blue;
+
+@bgColorRmNavbarMax: @color-variant-black-444;
+@bgColorTocLiA: @color-variant-black-444;
+@bgColorRmMobile: @color-variant-black-444;
+
+//@bgColorRegionSidebarRightBlockH4: @color-white;
+@bgColorRegionSidebarLeftBlock:@color-white;
+
+@bgColorBody: gainsboro;
+
+@bgColorBreadcrumbList-li: @color-cyan-5da9b5;
+
+@bgColorTocAHover: @color-variant-cyan;
