@@ -1,6 +1,11 @@
 Min me/redovisa
 ===================
 
+v6.0.0 (2020-01-20)
+----------------------
+
+* Done with following the rules of design -principles and elements!
+
 
 v10.0.0 (2020-01-16)
 ----------------------

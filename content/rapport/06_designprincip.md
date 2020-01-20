@@ -30,30 +30,35 @@ För att klara av uppgiften så hade vi stor användning av Movavi ScreenShot oc
 * Variation
 
 
-
-
 ##Resultat##
-
-
 ##Karlskrona kommun##
 
+Färgschemat baserar sig på en variant av vit #FDFEFE tillsammans med #144681 och #092546 i footern och vissa delar av headern. Annars används #000 och #fff med logtypen och texterna. Gällande accentfägen använder webbplatsen sig minst av 3 färger såsom #E65100, #18665B, #426A9A.
+
+Rörelse finns när man hovrar på navbaren och pilen som finns under flashbilden och två pilena som finns i "Populära tjänster" och "Hitta snabbt" knappar. Det är en väldigt bra teknik som gör att användaren eller besökaren hittar lätt information och kan enkelt navigera sig i sidan för att komma till mål.
+
+Variation finns också med på Karlskronas webbplats. Den använder sig av flera accentfärger föe att vägleda besökaren och att besökaren ska kunna se lite variation på sidan vilket kan vara trevligt att se. Annars tröttnar man på att kolla på samma färg hela tiden.
+
+Perspektiv kan vara en stor sök fönster, kontakt, lyssna, translate, lättläst, självservice, mina sidor, pronumera på Karlskronas nyheter.
+
+Bilderna  med texterna i nyheter sektion tillsammans med "Servicemeddelanden", "Hör av dig" och "hitta snabbt" boxar skapar en känsla av balans och harmoni. Harmonin känns eftersom designelementet "Rymd/space" medvetet används på webbplatsen mellan boxarna och texterna.
+
 ###Bilder###
+[FIGURE src=image/karlskrona.jpg class="center report" caption="Designprinciper/Analys/Karlskrona kommuns webbplats."]
 
 
 ##Helsingborgs kommun##
+Vi kan märka att logo för helsingborg kommunal är Helsingborg slott och denna de användar denna logo inom alla webbplatser inte bara denna. första sak ser man i sidan är en stor bild för huvudgatan i staden.
+
+I denna sidan vi kan märka att programmerare fokus på information i denna sidan mär än design så vi ser att design i sidan är enkelt. De använde inte många färger, eller elementprinciper, men skriviing är relativt mycket. Så i allmänhet sidan handlar om en eller två bilder och tre boxer och mycket skrivning och införmation i första sidan.i footer som alla sidor det finns nummer och email för kontakta lägg till helsingborgs logo och öppetider.
+
+Jag tror att det är ett av bästa sätten att visa information på en sida som de sidor för att denna typ av sidor används för serviceändamål och hjälpa människor att hitta specifika information och inte visa varor eller handla,och denna sök input i sidan hjälper mycket med hitta information snabbare.
 
 ###Bilder###
-
-
+[FIGURE src=image/helsingborg.jpg class="center report" caption="Designprinciper/Analys/Helsingborg kommuns webbplats."]
 
 
 ##Avesta kommun##
-
-###Bilder###
-
-[FIGURE src=image/Avesta-after.jpg class="center report" caption="Designprinciper/Analys/Avesta kommuns webbplats."]
-
-<br>
 Syftet varje kommunal webbplats vill nå är att informera invånarna om senaste nytt. Den också hjälper till dem med det vardagliga livet, som i sin tur kan handla om barn och skolor, jobb, bygge och hyresbostad osv. Det som kännetecknar Avestas kommunala webbplats är bisonen som finns med på loggan. Andra saker kan vara de två centrala färger i webbplatsens uppbyggnad <span class="background7"> #98002D</span> <span class="background8">#006870</span>.
 
 Webbplatsens design gynnar sitt mål som passar perfekt för föreställa information på ett enkelt och åtkomligt sätt. Designelement som har använts här är bilder(i hela webbplatsen), boxar (i hela webbplatsen) som i sin tur består av bilder och texter. Streck också används i footern och rymd/space (efter varje rad av boxar).
@@ -62,6 +67,9 @@ Personligen tycker jag att webbplatsens designpincip, "perspektiv" gynnar Avesta
 
 När man undersöker designprinciperna som används i framsidan och undersidorna, konstaterar man att de liknar varandra. Alla sidorna använder sig mer eller mindre av samma färger, rörelse och balans.
 
+###Bilder###
+[FIGURE src=image/Avesta-after.jpg class="center report" caption="Designprinciper/Analys/Avesta kommuns webbplats."]
+
 
 ##Analys##
 
@@ -69,9 +77,12 @@ När det kommer till Avesta kommun så har denns webbplats visat att den innehå
 Variation tillämpas från en färg perspektiv som accentfärg <span class="background7"> #98002D</span>. 
 implementerat enighet principen från ett matematiskt samt färgenligt perspektiv. Navbaren tillsammans med flashbilden den översta delen av headern har samma höjd som footern. På samma sätt har de implementerat en cyan-aktig färg på headern och footern så att de skulle se enade ut.
 
-Färgerna som har använts  på webbplatsen är <span class="background7"> #98002D</span> <span class="background8">#006870</span> <span class="background9">#F5F3EE</span> som basfärger för mitt tema.
+Färgerna som har använts  på webbplatsen är <span class="background7"> #98002D</span> <span class="background8">#006870</span> <span class="background9">#F5F3EE</span> som basfärger för mitt tema. Rörelse finns med men i mindre roll. Ett exempel på rörelse kan vara pilar som riktar  sig åt höger (På samma riktning bisonen har i loggan). Variation exempelfieras genom accentfärgen <span class="background7"> #98002D</span> som andvänds i olika platser på webbsidan. Eftersom designelementet "rymd" finns med på webbsidan är det helt klart att notera harmonin som finns mellan boxarna. De formar en harmonisk känsla.
 
-Rörelse finns med men i mindre roll. Ett exempel på rörelse kan vara pilar som riktar  sig åt höger (På samma riktning bisonen har i loggan). Variation exempelfieras genom accentfärgen <span class="background7"> #98002D</span> som andvänds i olika platser på webbsidan. Eftersom designelementet "rymd" finns med på webbsidan är det helt klart att notera harmonin som finns mellan boxarna. De formar en harmonisk känsla.
+
+Helsingborgs sidan har många designprinciperna och vi kan lätt märka dem trots att design som används på sidan vär lätt de använde många designprinciper som balans, rymd och rörelsen på sidorna var inte mycket med tanke på att de inte använde många bilder på webbplatsen, men de var begränsade till att sväva över bilderna och länkarna. Färgerna som används på sidan var inte många, special background var bara vit men navbaren och några andra delar har röd färg. Navbaren innehåller många delar uppdelade till olika delar och denna hjälper människor att lätt söka efter införmation och alla sidor på navbaren har samma design mycket av skrivande med relativt få bilder.
+
+Karlskronas hemsida är byggd på ett väldigt trevligt sätt där man kan lätt se olika designprinciper och designelement. Navbaren innehåller viktiga länkar och flashbilden under som ändras efter varje årstid och det passar till årstiden. Man kan se att dem har mycket rörlse i sdian som är ganska trevligt för besökaren att se, det finns variation där man har använt olika färger för att det ska finnas variation som kan vara bra att ha. Repetition kan vara tråkigt och kan leda att besökaren tröttnar på sidan och inte besökar lika ofta som man gjorde. Färger som har använts i navbaren och footer är #144681. Bakgrundsbilden är en #fff färg. Man har endast använt sig av färger som nära till varandra för att även skapa unity.
 
 
 ##Referenser##
